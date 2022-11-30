@@ -1,0 +1,54 @@
+package Ejercicio;
+
+public class ejercicioClase4 {
+	public static void main(String []args) {
+		
+	 int numero= -4;
+	 
+	 if(numero > 0) {
+		 System.out.println("Este numero es Positivo");
+	 }
+	 else if(numero < 0) {
+		 System.out.println("Este numero es Negativo");
+	 }
+	 else {
+		 System.out.println("Este numeo es 0");
+	 }
+	 int n = 0;
+	 
+	 while(n<3) {
+		 System.out.println(n);
+		 n++;
+	 }
+	 int c = 0;
+	do {
+		 System.out.println(c);
+		 c++;
+	} while(c<3);
+	
+	for(int numeroFor=0; numeroFor<=3;numeroFor++) {
+		System.out.println(numeroFor);
+	}
+	
+	var estacion= "Primavera";
+	
+	switch(estacion) {
+	case "Verano":
+		System.out.println("Es Verano");
+		break;
+	case "Invierno":
+		System.out.println("Es Invierno");
+		break;
+	case "Otoño":
+		System.out.println("Es Otoño");
+		break;
+	case "Primavera":
+		System.out.println("Es Primavera");
+		break;
+	
+		
+	}
+		
+	}
+
+}
